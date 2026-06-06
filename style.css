@@ -1,0 +1,82 @@
+.card.card-outline.card-warning {
+    background-color: rgba(10, 9, 9, 0.3);
+}
+
+.btn.btn-warning.btn-block {
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(160, 208, 0, 0.679);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card.card-outline.card-primary {
+    background-color: rgba(64, 60, 38, 0.633);
+}
+
+h1 {
+    color: rgb(139, 177, 11);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+b {
+    color: rgb(189, 203, 25);
+}
+
+.small-box {
+    margin: 20px auto; /* Centra el cuadro horizontalmente */
+    text-align: center; /* Alinea el contenido dentro del cuadro al centro */
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 60px;
+    opacity: 0.1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    justify-content: center; /* Centra los elementos hijos dentro de la fila */
+    display: flex;
+}
+
+.col-lg-3, .col-6 {
+    display: flex;
+    justify-content: center; /* Asegura que el contenido interno esté centrado */
+    align-items: center;
+}
